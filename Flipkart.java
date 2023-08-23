@@ -27,12 +27,21 @@ public class Flipkart{
 		co.setBinary("C:\\Users\\psuryavanshi2\\Downloads\\chromedriver-win64\\chrome-win64\\chrome.exe");
 		WebDriver driverFlipkart=new ChromeDriver(co);
 		
+		//Opening the flipkart site
 		driverFlipkart.get("https://www.flipkart.com");
 		Thread.sleep(3000);
+		
+		// Maximizing the window
 		driverFlipkart.manage().window().maximize();
+		
+		// Closing the login body
 		driverFlipkart.findElement(By.tagName("body")).sendKeys(Keys.ESCAPE);
+		
+		// Searching mobiles on flipkart searchbar
 		driverFlipkart.findElement(By.name("q")).sendKeys("Mobiles",Keys.ENTER);
 		Thread.sleep(3000);
+		
+		// Selecting the samsung checkbox
 		driverFlipkart.findElement(By.xpath("//*[@id=\"container\"]/div/div[3]/div[1]/div[1]/div/div[1]/div/section[3]/div[2]/div[1]/div[2]/div/label/div[1]")).click();
 		Thread.sleep(3000);
 		
@@ -42,5 +51,8 @@ public class Flipkart{
 			if(webElement.getText().contains("F"))
 			System.out.println(webElement.getText());
 		}
+		
+		// Closing the window
+		driverFlipkart.quit();
     }
 }

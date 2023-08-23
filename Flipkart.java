@@ -3,6 +3,7 @@ package com.selenium.a1;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -51,6 +52,14 @@ public class Flipkart{
 			if(webElement.getText().contains("F"))
 			System.out.println(webElement.getText());
 		}
+		
+		//Scroll the page
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driverFlipkart;
+		//Scroll down
+		jsExecutor.executeScript("window.scrollBy(0,10000)","");
+		Thread.sleep(3000);
+		//Scroll up
+		jsExecutor.executeScript("window.scrollBy(0,-10000)","");
 		
 		// Closing the window
 		driverFlipkart.quit();

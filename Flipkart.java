@@ -20,9 +20,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  */ 
 
 public class Flipkart{
-	
     public static void main( String[] args ) throws Exception{
-    		//Browser setup
+    		
+	        //Browser setup
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\psuryavanshi2\\Downloads\\chromedriver-win64\\chromedriver.exe");
 		ChromeOptions co=new ChromeOptions();
 		co.setBinary("C:\\Users\\psuryavanshi2\\Downloads\\chromedriver-win64\\chrome-win64\\chrome.exe");

@@ -1,148 +1,131 @@
-**Test Case 1: Verify Homepage Elements**
+**Test Case 1: Verify Login with Valid Credentials**
 
-1. Open candymapper.com website.
+1. Open the OrangeHRM login page.
 
-2. Verify that the logo is displayed.
+2. Enter valid username and password.
 
-3. Check if the navigation menu is visible.
+3. Click the "LOGIN" button.
 
-4. Ensure that the search bar is present.
-
-5. Validate the presence of a featured candy image.
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-**Test Case 2: Search for a Candy**
-
-1. Open candymapper.com website.
-
-2. Enter a candy name in the search bar.
-
-3. Click the search button.
-
-4. Verify that search results are displayed.
-
-5. Click on a candy from the results.
-
-6. Verify that the candy's details page loads.
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------
- 
-
-**Test Case 3: Add Candy to Collection**
-
-1. Open candymapper.com website.
-
-2. Search for a candy.
-
-3. Click on a candy to view details.
-
-4. Click the "Add to Collection" button.
-
-5. Verify that a success message is shown.
-
-6. Go to the user's collection and verify the added candy.
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+4. Verify that the user is successfully logged in.
 
  
-**Test Case 4: Login and Logout**
 
-1. Open candymapper.com website.
+**Test Case 2: Verify Login with Invalid Credentials**
 
-2. Click the "Login" button.
+1. Open the OrangeHRM login page.
 
-3. Enter valid login credentials.
+2. Enter invalid username and password.
 
-4. Click the "Login" button.
+3. Click the "LOGIN" button.
 
-5. Verify that the user is logged in.
+4. Verify that an error message is displayed.
 
-6. Click the user's profile menu.
-
-7. Click "Logout" option.
-
-8. Verify that the user is logged out.
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------- 
-
-**Test Case 5: Sort and Verify Candy List**
-
-1. Open candymapper.com website.
-
-2. Click on the "Candies" link in the navigation menu.
-
-3. Select a sorting option (e.g., "A-Z").
-
-4. Verify that the candies are sorted as per the selected option.
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------
  
 
-**Test Case 6: Filter Candies by Category**
+**Test Case 3: Verify Forgot Password Link**
 
-1. Open candymapper.com website.
+1. Open the OrangeHRM login page.
 
-2. Click on the "Candies" link.
+2. Click the "Forgot your password?" link.
 
-3. Select a candy category from the filter options.
+3. Enter a valid email address.
 
-4. Verify that only candies from the selected category are displayed.
+4. Click the "Reset Password" button.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+5. Verify that a password reset confirmation message is displayed.
+
  
 
-**Test Case 7: Add Candy Review**
+**Test Case 4: Verify Logout**
 
-1. Open candymapper.com website.
+1. Log in with valid credentials.
 
-2. Search for a candy.
+2. Click on the user profile dropdown.
 
-3. Click on a candy to view details.
+3. Click the "Logout" option.
 
-4. Scroll down and click "Add Review" button.
+4. Verify that the user is logged out and redirected to the login page.
 
-5. Enter review details (rating, comments).
-
-6. Click "Submit" button.
-
-7. Verify that the review is added to the candy's page.
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------
  
 
-**Test Case 8: Check Candy Ratings**
+**Test Case 5: Verify Dashboard Page**
 
-1. Open candymapper.com website.
+1. Log in with valid credentials.
 
-2. Search for a candy.
+2. Verify that the dashboard page is displayed after login.
 
-3. Click on a candy to view details.
-
-4. Verify that the candy's rating is displayed.
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------
  
 
-**Test Case 9: Submit Contact Form**
+**Test Case 6: Verify Employee List Navigation**
 
-1. Open candymapper.com website.
+1. Log in with valid credentials.
 
-2. Click on the "Contact" link.
+2. Navigate to the "PIM" menu.
 
-3. Fill in the contact form with valid details.
+3. Click on the "Employee List" option.
 
-4. Click the "Submit" button.
+4. Verify that the Employee List page is displayed.
 
-5. Verify that a success message is displayed.
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------
  
 
-**Test Case 10: Navigate to About Page**
+**Test Case 7: Verify Add Employee Functionality**
 
-1. Open candymapper.com website.
+1. Log in with valid credentials.
 
-2. Click on the "About" link in the footer.
+2. Navigate to the "PIM" menu.
 
-3. Verify that the About page content loads.
+3. Click on the "Add Employee" option.
+
+4. Fill in employee details.
+
+5. Click the "Save" button.
+
+6. Verify that the new employee is added successfully.
+
+ 
+
+**Test Case 8: Verify Search Employee Functionality**
+
+1. Log in with valid credentials.
+
+2. Navigate to the "PIM" menu.
+
+3. Click on the "Employee List" option.
+
+4. Enter an employee's name in the search field.
+
+5. Click the "Search" button.
+
+6. Verify that the employee's details are displayed in the search results.
+
+ 
+
+**Test Case 9: Verify Leave Application**
+
+1. Log in with valid credentials.
+
+2. Navigate to the "Leave" menu.
+
+3. Click on the "Apply" button.
+
+4. Fill in leave application details.
+
+5. Click the "Apply" button.
+
+6. Verify that the leave request is submitted successfully.
+
+ 
+
+**Test Case 10: Verify Approve Leave**
+
+1. Log in as a manager with valid credentials.
+
+2. Navigate to the "Leave" menu.
+
+3. Click on the "Leave List" option.
+
+4. Select a leave request.
+
+5. Click the "Approve" button.
+
+6. Verify that the leave request is approved.

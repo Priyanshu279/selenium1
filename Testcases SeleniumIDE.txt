@@ -1,0 +1,169 @@
+
+Test Case 1: Search and Add to Cart 
+
+
+Open Amazon website.
+
+Enter "laptop" in the search bar.
+
+Click the magnifying glass icon or press Enter.
+
+Click on the first search result to view details.
+
+Select a color option from the available choices.
+
+Click "Add to Cart" button.
+
+Verify that the item is added to the cart.
+
+Close the cart overlay.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Test Case 2: Login and Logout
+
+ 
+
+Open Amazon website.
+
+Click "Hello, Sign in" button.
+
+Enter valid username and password.
+
+Click "Sign In" button.
+
+Verify that user is logged in.
+
+Click on the account menu.
+
+Click "Sign Out."
+
+Verify that user is logged out.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Test Case 3: Sort and Verify Results
+ 
+
+Open Amazon website.
+
+Select a product category from the navigation menu.
+
+Choose a sorting option (e.g., "Price: Low to High").
+
+Capture the prices of the first and last items.
+
+Verify that items are sorted correctly.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Test Case 4: Add to Wishlist
+ 
+
+Open Amazon website.
+
+Search for a product.
+
+Click on a search result to view details.
+
+Click "Add to Wish List" button.
+
+Verify that the product is added to the wishlist.
+
+Go to the wishlist and verify the added product.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Test Case 5: Change Currency
+
+ 
+Open Amazon website.
+
+Select a product category.
+
+Click on the currency symbol.
+
+Choose a different currency (e.g., Euro).
+
+Verify that prices are displayed in the selected currency.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Test Case 6: Apply Coupon Code
+ 
+
+Open Amazon website.
+
+Search for a product.
+
+Add the product to the cart.
+
+Go to the cart page.
+
+Enter a valid coupon code.
+
+Apply the coupon and verify the discount.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Test Case 7: Check Special Deals
+ 
+
+Open Amazon website.
+
+Click on the "Today's Deals" link.
+
+Browse through the available deals.
+
+Click on a deal to view details.
+
+Verify the deal information and savings.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Test Case 8: View and Compare Products
+ 
+
+Open Amazon website.
+
+Search for a product.
+
+Click on a search result.
+
+Note down product specifications.
+
+Go back to the search results.
+
+Click on another product to compare specs.
+
+Compare specifications of both products.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Test Case 9: Navigate to Different Departments
+ 
+
+Open Amazon website.
+
+Hover over the "Shop by Department" menu.
+
+Select a department from the dropdown.
+
+Verify that the selected department page loads.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Test Case 10: Add and Remove from Cart
+ 
+
+Open Amazon website.
+
+Search and select a product.
+
+Click "Add to Cart" button.
+
+Verify that the cart count updates.
+
+Go to the cart.
+
+Remove the added product.
+
+Verify that the cart is empty.
